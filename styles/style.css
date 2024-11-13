@@ -124,21 +124,19 @@
     color: #fff;
     line-height: 28px;
     z-index: 2;
+    font-weight: 400px;
     text-transform: uppercase;
     white-space: none;
-    width: 637px;
     height: 28px;
     top: 667px;
     left: 78px;
-    right: 385px;
     font-size: 22px;
 }
 .letter-spacing-whitespace {
     word-spacing: 0.9em;
 }
 .letter-spacing-extended_subline {
-    margin-left: 1.1em;
-    margin-right: 1.1em;
+    word-spacing: 1.1em;
 }
 .letter-spacing-extended-whitespace2 {
     word-spacing: 0.8em;
