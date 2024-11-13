@@ -8,8 +8,9 @@
     display: flex;
     align-items: start;
     font-family: "Raleway", sans-serif;
+    font-size: 18px;
 }
-.header-menu {   
+.header-menu {  
     display: flex;
     margin: 44px 36px 39px 26.52px;
     white-space: nowrap;
@@ -58,7 +59,7 @@
     position: relative;
     width: 1100px;
     height: 757px;
-    background-image: url('/images/cover.jpg');
+    background-image: url('../images/cover.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -207,15 +208,15 @@
     border-radius: 8px;
 }
 .card__type_film {
-    background: url('/images/card-lot-01.jpg') center / cover no-repeat;
+    background: url('../images/card-lot-01.jpg') center / cover no-repeat;
 }
 
 .card__type_book {
-    background: url('/images/card-lot-02.jpg') center / cover no-repeat;
+    background: url('../images/card-lot-02.jpg') center / cover no-repeat;
 }
 
 .card__type_picture {
-    background: url('/images/card-lot-03.jpg') center / cover no-repeat;
+    background: url('../images/card-lot-03.jpg') center / cover no-repeat;
 }
 .card__title {
     display: flex;
@@ -298,6 +299,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     padding: 20px;
     margin: 180px 50px 88px 50px;
+    font-size: 18px;
 }
 .footer__adress {
     font-style: normal;
@@ -308,7 +310,6 @@
 }
 .footer__menu {
     display: flex;
-    font-size: 18px;
     text-align: center;
     margin-bottom: 10px;
     width: 149px;
