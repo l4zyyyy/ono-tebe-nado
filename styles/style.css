@@ -96,9 +96,8 @@
 .aligned-text_center {
     display: flex;
     letter-spacing: 0.3em;
-    place-content: center;
-    padding: 0;
-    height: 100px;
+    justify-content: center;
+    margin: 0;
 }
 .aligned-text_right {
     display: flex;
