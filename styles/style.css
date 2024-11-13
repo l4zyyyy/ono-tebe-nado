@@ -274,7 +274,6 @@
 }
 .about__title {
     margin-top: 133px;
-    margin-bottom: 10px;
     text-transform: uppercase;
     display: flex;
     place-content: start;
@@ -282,8 +281,7 @@
 }
 .about__text {
     margin-bottom: 0;
-    font-size: 20px;
-     
+    font-size: 20px;    
 }
 .about__text-paragraph {
     margin-top: 100px;
@@ -303,6 +301,7 @@
 .footer__adress {
     font-style: normal;
     width: 240.52px;
+    height: 98px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -314,19 +313,18 @@
     margin-bottom: 10px;
     width: 149px;
     white-space: nowrap;
-    place-content: center;
-}
-.footer__menu-list {
-    list-style: none;
     margin-left: 185.48px;
     margin-bottom: 33px;
 }
+.footer__menu-list {
+    list-style: none;
+    
+}
 .footer__social-list {
     display: flex;
-    justify-content: center;
     list-style: none;
     padding: 0;
-    margin: 0 0 0 185px;
+    margin: 0 50px 16px 185px;
     gap: 48px;
 }
 .footer__social-list-item {
