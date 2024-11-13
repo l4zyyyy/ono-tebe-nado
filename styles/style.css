@@ -16,7 +16,7 @@
     margin-left: 26.52px;
 }
 .header__menu-list {
-    display: flex;
+    display: flex; 
     list-style: none;
 }
 .header__menu-item {
