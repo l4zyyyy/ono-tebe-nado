@@ -134,11 +134,11 @@
     right: 385px;
     font-size: 22px;
 }
-.letter-spacing-extended_subline {
-    word-spacing: 1.1em;
-}
 .letter-spacing-whitespace {
     word-spacing: 0.9em;
+}
+.letter-spacing-extended_subline {
+    margin-right: 1.1em;
 }
 .letter-spacing-extended-whitespace2 {
     word-spacing: 0.8em;
