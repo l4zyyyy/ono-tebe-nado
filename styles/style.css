@@ -112,7 +112,7 @@
 .no-letter-spacing {
     letter-spacing: normal;
 }
-.cover__description { 
+.cover__description {
     font-family: "Raleway", sans-serif;
     z-index: 2;
     color: #fff;
@@ -138,8 +138,8 @@
     background-color: transparent;
     z-index: 2;
     color: #fff;
-    border: 1px solid white; 
-    cursor: pointer; 
+    border: 1px solid white;
+    cursor: pointer;
     outline: none;
     width: 256px;
     padding: 14px 31px;
@@ -149,8 +149,8 @@
     font-weight: 500;
 } 
 
-.bet__button:hover { 
-    background-color: rgba(255, 255, 255, 0.1); 
+.bet__button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
 }   
 .lots {
     width: 1052px;
