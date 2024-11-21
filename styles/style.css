@@ -101,6 +101,7 @@
     text-align: right;
     line-height: 1.15;
     padding-right: 50px;
+    height: 100px;
 }
 .letter-spacing-extended {
     letter-spacing: 0.6em;
