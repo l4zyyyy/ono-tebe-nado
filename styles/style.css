@@ -177,6 +177,7 @@
 .lots__card-list-item {
     display: flex;
     width: 334px;
+    height: auto;
 }
 .card-link {
     display: block;
