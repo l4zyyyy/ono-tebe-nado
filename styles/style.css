@@ -274,6 +274,7 @@
     display: flex;
     place-content: start;
     font-size: 40px;
+    margin-top: 3px;
 }
 .about__text {
     margin-bottom: 0;
