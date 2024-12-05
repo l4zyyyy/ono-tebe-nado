@@ -103,7 +103,7 @@
 .aligned-text_center {
     letter-spacing: 0.3em;
     line-height: 100px;
-    padding-left: 286px;
+    text-align: center;
     margin-top: 20px;
 }
 .aligned-text_right {
@@ -180,6 +180,7 @@
 .lots__card-list-item {
     display: flex;
     width: 334px;
+    min-height: 563px;
     height: auto;
 }
 .card-link {
@@ -196,7 +197,6 @@
     justify-content: space-between;
     height: 100%;
     color: white;
-    border-radius: 8px;
 }
 .card__type_film {
     background: url('../images/card-lot-01.jpg') center / cover no-repeat;
@@ -213,7 +213,9 @@
     display: flex;
     text-align: left;
     text-decoration: underline;
-    margin: 51px 40px ;
+    margin-top: 51px;
+    margin-left: 40px;
+    margin-right: 40px;
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     z-index: 2;
@@ -222,14 +224,16 @@
 }
 .card__text {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     font-family: "Raleway", sans-serif;
-    position: relative;
     width: 254px;
     font-size: 20px;
     z-index: 2;
-    bottom: 48px;
-    left: 40px;
+    font-weight: 400;
+    margin-left: 40px;
+    margin-bottom: 48px;
+    margin-top: 0;
+    line-height: 24px;
 }
 .lots__look-more-link {
     display: flex;
@@ -241,7 +245,7 @@
     display: grid;
     grid-template-columns: auto 2fr;
     gap: 72px;
-    margin: 146px 24px 180px 24px;
+    margin: 146px 24px 0 24px;
 }
 .about__logo {
     margin-top: 35px;
@@ -288,6 +292,7 @@
     margin-top: 180px;
     margin-left: 50px;
     margin-right: 50px;
+    margin-bottom: 88px;
     font-size: 18px;
     padding-top: 1px;
 }
